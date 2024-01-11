@@ -32,7 +32,7 @@ if (seconds > 3600):
     recipient = input("Enter receiving email:\n")
     subject = "Sick Day"
     message = """
-    Hi team, 
+    Hi Boss, 
     
     Sorry for the inconvenience, but I can't make it to work today.
     
