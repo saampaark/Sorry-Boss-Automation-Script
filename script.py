@@ -28,7 +28,7 @@ print("\nThe total time from home to work is", time)
 if (seconds > 3600):
 
     # email constraints
-    sender = 'sam.park00000@gmail.com'
+    sender = input("Enter sender email:\n")
     recipient = input("Enter receiving email:\n")
     subject = "Sick Day"
     message = """
