@@ -3,7 +3,7 @@ import smtplib
 from email.message import EmailMessage
 
 # API Key
-api_key = "AIzaSyAOv_VFZKT_vuAKvQvQPRYJn8g4MwZzDds"
+api_key = "insert-api-key-here"
 
 # Home Address Input
 home = input("Enter home address:\n")
@@ -47,7 +47,7 @@ if (seconds > 3600):
     server.starttls()
 
     # Authentication
-    server.login(sender, "mwedalabsuucoilb")
+    server.login(sender, "insert-password-here")
 
     # Sending email
     server.sendmail(sender, recipient, em)
